@@ -1,0 +1,1 @@
+{"fields":[{"name":"petal_length","type":"float"},{"name":"petal_width","type":"float"},{"name":"sepal_length","type":"float"},{"name":"sepal_width","type":"float"},{"name":"target","type":"float"}],"name":"xgboost_input","type":"record"}
