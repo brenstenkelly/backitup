@@ -1,0 +1,1 @@
+{"Description":"read input from the specified file","Encoding":"json","Envelope":"delimited","Schema":{"items":"double","type":"array"},"Transport":{"Path":"/tmp/data/schemaInputArrayDouble.jsons","Type":"file"}}
