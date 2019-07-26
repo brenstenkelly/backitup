@@ -1,0 +1,1 @@
+{"Description": "write output to the specified file", "Encoding": "json", "Envelope": "delimited", "Loop": false, "Transport": {"Path": "/tmp/data/fns-391-output.json", "Type": "file"}, "Schema": {"$ref": "fns-391-schemas"}}
