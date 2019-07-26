@@ -1,0 +1,1 @@
+{"Transport":{"ConnectionString":"Driver=MySQL;Server=localhost;Port=3306;Database=fastscore;User=root;Password=root","SelectQuery":"select sepal_length, sepal_width, petal_length, pedal_width from fastscore.iris_input;","Type":"ODBC"}}
