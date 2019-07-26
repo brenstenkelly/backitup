@@ -1,0 +1,1 @@
+{"Description":"write output to the specified file","Encoding":"json","Envelope":"delimited","Schema":{"items":"double","type":"array"},"Transport":{"Path":"/tmp/data/schemaOutputArrayDouble.jsons","Type":"file"}}
