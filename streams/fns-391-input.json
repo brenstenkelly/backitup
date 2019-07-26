@@ -1,0 +1,1 @@
+{"Description": "read input from the specified file", "Encoding": "json", "Envelope": "delimited", "Loop": false, "Transport": {"Path": "/tmp/data/fns-391-input.json", "Type": "file"}, "Schema": {"$ref": "fns-391-schemas"}}
