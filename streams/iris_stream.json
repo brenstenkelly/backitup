@@ -1,0 +1,1 @@
+{"Encoding":"json","Transport":{"BootstrapServers":["kafka:9092"],"Topic":"iris-output","Type":"kafka"}}
