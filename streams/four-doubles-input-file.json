@@ -1,0 +1,1 @@
+{"Description":"read input from the specified file","Encoding":"csv","Envelope":"delimited","Schema":{"$ref":"four-doubles"},"Transport":{"Path":"/tmp/data/four-doubles.csv","Type":"file"}}
