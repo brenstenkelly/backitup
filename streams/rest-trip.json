@@ -1,0 +1,9 @@
+{
+  "Transport": "REST",
+  "Encoding": "json",
+   "Batching": {
+    "NagleTime": 0,
+    "Watermark": null
+  }
+
+}
