@@ -1,0 +1,1 @@
+{"fields":[{"name":"A","type":"float"},{"name":"B","type":"float"},{"name":"C","type":"float"}],"name":"xgboost_output","type":"record"}
