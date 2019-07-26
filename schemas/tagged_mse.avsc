@@ -1,0 +1,1 @@
+{"fields":[{"name":"name","type":"string"},{"name":"value","type":"double"},{"name":"actual","type":"double"}],"name":"tagged_double","type":"record"}
