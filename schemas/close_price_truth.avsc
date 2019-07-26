@@ -1,0 +1,1 @@
+{"fields":[{"name":"Date","type":"double"},{"name":"Close","type":"double"}],"name":"close_price","type":"record"}
