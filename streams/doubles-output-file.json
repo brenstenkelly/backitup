@@ -1,0 +1,1 @@
+{"Description":"write a list of doubles to the specified file","Encoding":"json","Envelope":"delimited","Schema":{"$ref":"double"},"Transport":{"Path":"/tmp/data/doubles.csv","Type":"file"}}
