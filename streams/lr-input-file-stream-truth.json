@@ -1,0 +1,1 @@
+{"Encoding":"json","Envelope":"delimited","Loop":true,"Transport":{"Path":"/data/close_prices_truth.jsons","Type":"file"},"Version":"1.2"}
