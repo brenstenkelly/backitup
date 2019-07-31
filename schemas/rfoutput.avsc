@@ -1,0 +1,1 @@
+{"fields":[{"name":"pred","type":"double"},{"name":"ID","type":"int"}],"name":"rec_output","type":"record"}
