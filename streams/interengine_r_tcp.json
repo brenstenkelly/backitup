@@ -1,0 +1,1 @@
+{"Description":"read a sequence of untyped json separated by newlines over TCP transport","Encoding":"json","Envelope":"delimited","Schema":{"$ref":"hp_input"},"Transport":{"Host":"bdlocal128","Port":12012,"Type":"TCP"}}
