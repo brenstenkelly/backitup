@@ -1,0 +1,1 @@
+{"Transport": {"Type": "REST", "Mode": "chunked"}, "Encoding": "json", "Envelope": "delimited", "Schema": {"$ref": "close_price"}}
