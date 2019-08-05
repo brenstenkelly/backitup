@@ -1,1 +1,1 @@
-{"fields": [{"type": "double", "name": "first"}, {"type": "double", "name": "second"}, {"type": "double", "name": "third"}, {"type": "double", "name": "last"}], "type": "record", "name": "fourdoubles"}
+{"fields":[{"name":"first","type":"double"},{"name":"second","type":"double"},{"name":"third","type":"double"},{"name":"last","type":"double"}],"name":"fourdoubles","type":"record"}
