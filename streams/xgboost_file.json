@@ -1,0 +1,1 @@
+{"Description":"read input from the specified file","Encoding":"json","Envelope":"delimited","Transport":{"Path":"/tmp/input.jsons","Type":"file"}}
