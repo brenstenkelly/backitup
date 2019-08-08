@@ -14,7 +14,35 @@ import datetime as dt
 from influxdb import InfluxDBClient
 from time import sleep
 
-
+def vals_to_dict(sb):
+    vals = sb.values
+    mean, var = vals["Moments"]
+    vals["Mean"] = mean
+    vals["Variance"] = var
+    del vals["Moments"]
+    ewma, ewmv = vals["EWM"]
+    vals["EWMA"] = ewma
+    vals["EWMV"] = ewmv
+    del vals["EWM"]
+    return {**vals}
+    
+def gen_point(name,datum,timestamp):
+    point = {
+        "measurement": name,
+        "time": timestamp,
+        "fields": {
+            "Max": datum['Max'],
+            "Min": datum['Min'],
+            "Mean": datum['Mean'],
+            "Variance": datum['Variance'],
+            "EWMA": datum['EWMA'],
+            #"EWMV": datum['EWMV'],
+            "prediction": datum['prediction'],
+            "Elapsed Time": datum['Elapsed Time'],
+            "Number of Records": datum['Number of Records']
+        }
+    }
+    return point
 
 def begin():
     global lr
