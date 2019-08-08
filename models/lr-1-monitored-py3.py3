@@ -48,12 +48,12 @@ def action(x):
     #actual = x*uniform(1, 1.5)
     window = window[1-window_size:] + [x]
     if len(window) < window_size:
-        yield {"name": "price", "score":x}
+        predict = {"name": "price", "score":x}
     else:
         X = np.array([window])
         y = lr.predict(X)
         
-    predict = {"name":"price", "score": y[0,0]}
+        predict = {"name":"price", "score": y[0,0]}
 
     global bundle
     global start_time
