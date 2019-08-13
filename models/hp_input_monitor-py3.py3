@@ -60,7 +60,7 @@ def begin():
 	FLUSH_DELTA = 0.1 
 	BATCH_SIZE = 1 
 	BATCH = []
-	influx = InfluxDBClient(host='bdlocal124', port='8086', username='admin', password='scorefast', database='fastscore')
+	influx = InfluxDBClient(host='influxdb', port='8086', username='admin', password='scorefast', database='fastscore')
 
 
 
