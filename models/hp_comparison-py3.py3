@@ -21,7 +21,8 @@ def begin():
     xgboost_model = pickle.load(open("xgboost_model.pickle", "rb"))
    
     train_encoded_columns = pickle.load(open("train_encoded_columns.pickle", "rb"))
-    influx = InfluxDBClient(host='bdlocal130', port='8086', username='admin', password='scorefast', database='fastscore')
+    influx = InfluxDBClient(host='influxdb', port='8086', username='admin', password='scorefast', database='fastscore')
+
     measurement_name = "champion_challenger"
 
 def action(data):
