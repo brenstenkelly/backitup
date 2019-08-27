@@ -1,0 +1,1 @@
+{"fields":[{"name":"symbol","type":"string"},{"name":"price","type":"double"}],"name":"stockquote","type":"record"}
