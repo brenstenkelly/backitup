@@ -1,0 +1,1 @@
+action <- function(x) exit(x*x*x)
